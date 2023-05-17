@@ -1,0 +1,95 @@
+body {
+  font-family: Poppins, Poppins;
+  margin: 0;
+  padding: 0;
+}
+
+header img {
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  top: 0px;
+
+}
+
+header {
+  background-color: #4f26be;
+  color: #eb9b24;
+  padding: 17px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  margin-left: 75px;
+}
+
+#content {
+  padding: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+
+#document-text {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+#image-preview {
+  margin-bottom: 10px;
+}
+
+#saved-content {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+.entry {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.delete-button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: right;
+}
+
+#save-date {
+  margin-left: 10px;
+  font-style: bold;
+  color: #888;
+}
+
+.item-salvo {
+  margin-bottom: 25px;
+
+}
