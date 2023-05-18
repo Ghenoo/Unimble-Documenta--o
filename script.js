@@ -27,6 +27,10 @@ document.addEventListener("DOMContentLoaded", function() {
     deleteButton.textContent = "Excluir";
     entryContainer.appendChild(deleteButton);
 
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    entryContainer.appendChild(checkbox);
+
     deleteButton.addEventListener("click", function() {
       savedContent.removeChild(entryContainer);
     });
